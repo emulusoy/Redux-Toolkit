@@ -1,0 +1,26 @@
+
+/////////////////////////////////////////////////////////////////////////////
+            BURASI ÖĞRENME ALANIN
+////////////////////////////////////////////////////////////////////////////
+
+
+
+redux storage burasıdır. export diyerek dışarıya açtık!
+
+daha sonra app companentine sarmalama yaptık provider bütün her şeye erişti! appp components store erişebilir
+
+state tanımladık ve bütün compenentlerde erişebiliriz bunu useSelectorHooks ile yaparız!
+
+
+
+kütüphanelerini ekledik daha sonra reduxsımızı app compenente her yerden store erişebilmek için provider ekledik
+store tanımladık reduxdan store slicelerimizi toplayan kütüphaneyi ekledik sliceler bizim dilimlerimiz!
+
+orada counter slice dilimini tanımladık slicemizin kaşılığı reducer dye isim verdik
+
+FONKSİYONLARIMIZI REDUCER İÇİNDE TUTARIZ
+
+useselector kullanarak storeyi çektik storenin içinde çok fazla slice olur biz burda counter slice belirledik o slicemizi app.js de çkemesini istedik
+STATİNİ DÖNER FONKSİYONUNU DÖNMZ İNİTİAL STATİ DÖNER YANİ
+
+fonksiyona erişmek içinse dispatch dan yararlanırız!!!!
